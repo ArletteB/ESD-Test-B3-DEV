@@ -39,6 +39,7 @@ body{
     width: 100%;
     padding: 0;
     margin-top: 60px;
+    margin-bottom: 3rem;
     text-align: center;
     .logo{
         img {
@@ -54,16 +55,41 @@ body{
     width: 100%;
     margin: auto;
     background-color: #0A354C;
-    color: white;
+    color: #fff;
+    h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
+    p{
+        margin: 1rem;
+    }
 }
 
 .jeux {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
     background-color: #051b27;
     color: #fff;
-    margin-top: 2rem;
-    // position: relative;
-    width: 100%;
-    // z-index: 1;
+    h2 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .containerjeux{
+       margin: 1rem;
+         h3{
+             margin-top: 1rem;
+             margin-bottom: 1rem;
+        }
+        p{
+            margin-bottom: 1rem;
+        }
+        .btn-link{
+            margin-top: 3rem;
+        }
+    }
+        
 }
 
 
@@ -100,7 +126,7 @@ footer {
     align-items: center;
     .linklogo{
         .logo2 {
-            width: 100%;
+            width: 80%;
             padding: 1rem 0;
         }
     }
@@ -158,3 +184,27 @@ footer {
         border-right: none ;
     }      
     }
+
+@media screen and (min-width: 780px) {
+    .presentation {
+       height: 300px;
+       h2{
+           margin-top: 2rem !important;
+           font-size: 2rem;
+       }
+       p{
+           width: 70%;
+           padding-left: 3rem;
+           padding-bottom: 3rem;
+       }
+    }
+    .jeux {
+        
+        background-color: #051b27;
+        color: #fff;
+        // margin-top: 2rem;
+        // position: relative;
+        width: 100%;
+        // z-index: 1;
+    }
+ }

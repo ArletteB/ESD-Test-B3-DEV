@@ -39,6 +39,7 @@ body {
   width: 100%;
   padding: 0;
   margin-top: 60px;
+  margin-bottom: 3rem;
   text-align: center;
 }
 .logo-ces .logo img {
@@ -52,14 +53,40 @@ body {
   width: 100%;
   margin: auto;
   background-color: #0A354C;
-  color: white;
+  color: #fff;
+}
+.presentation h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.presentation p {
+  margin: 1rem;
 }
 
 .jeux {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
   background-color: #051b27;
   color: #fff;
+}
+.jeux h2 {
   margin-top: 2rem;
-  width: 100%;
+  margin-bottom: 1rem;
+}
+.jeux .containerjeux {
+  margin: 1rem;
+}
+.jeux .containerjeux h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.jeux .containerjeux p {
+  margin-bottom: 1rem;
+}
+.jeux .containerjeux .btn-link {
+  margin-top: 3rem;
 }
 
 /*  ---------           -------- */
@@ -89,7 +116,7 @@ footer {
   align-items: center;
 }
 footer .linklogo .logo2 {
-  width: 100%;
+  width: 80%;
   padding: 1rem 0;
 }
 footer ul {
@@ -136,6 +163,26 @@ footer ul:not(:last-child) {
 
   footer ul:not(:last-child) {
     border-right: none;
+  }
+}
+@media screen and (min-width: 780px) {
+  .presentation {
+    height: 300px;
+  }
+  .presentation h2 {
+    margin-top: 2rem !important;
+    font-size: 2rem;
+  }
+  .presentation p {
+    width: 70%;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .jeux {
+    background-color: #051b27;
+    color: #fff;
+    width: 100%;
   }
 }
 
