@@ -49,7 +49,7 @@ body{
 
         /*  --------- SECTION PRÉSENTATION -------- */
 .presentation {
-     display: flex;
+    display: flex;
     flex-direction: column;
     width: 100%;
     margin: auto;
@@ -60,8 +60,20 @@ body{
 .jeux {
     background-color: #051b27;
     color: #fff;
-    margin-bottom: -16rem;
-    position: relative;
+    margin-top: 2rem;
+    // position: relative;
     width: 100%;
-    z-index: 1;
+    // z-index: 1;
+}
+
+
+         /*  ---------           -------- */
+        /*  --------- CGU PAGE   ------- */
+       /*  ---------            ------- */
+
+#CGU{
+   .cgu {
+    width: 80%;
+    text-align: center;
+   }
 }

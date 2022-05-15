@@ -58,10 +58,16 @@ body {
 .jeux {
   background-color: #051b27;
   color: #fff;
-  margin-bottom: -16rem;
-  position: relative;
+  margin-top: 2rem;
   width: 100%;
-  z-index: 1;
+}
+
+/*  ---------           -------- */
+/*  --------- CGU PAGE   ------- */
+/*  ---------            ------- */
+#CGU .cgu {
+  width: 80%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=stylle.css.map */
