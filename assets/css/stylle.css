@@ -107,6 +107,20 @@ body {
   text-align: center;
 }
 
+/*  ---------                -------- */
+/*  ---------   PAGE QUIZ     ------- */
+/*  ---------                 ------- */
+.qcm {
+  margin: 3rem;
+}
+.qcm .question {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.qcm p input {
+  width: 20%;
+}
+
 /*  ---------           -------- */
 /*  --------- FOOTER     ------- */
 /*  ---------            ------- */
@@ -186,6 +200,10 @@ footer ul:not(:last-child) {
   }
   .expli-jeux .container-jeux {
     padding-left: 3rem;
+  }
+
+  .qcm p input {
+    width: 7%;
   }
 }
 

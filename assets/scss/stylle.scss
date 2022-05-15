@@ -116,6 +116,24 @@ body{
    }
 }
 
+
+         /*  ---------                -------- */
+        /*  ---------   PAGE QUIZ     ------- */
+       /*  ---------                 ------- */
+
+.qcm {
+    margin: 3rem;
+    .question{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    p{
+        input {
+        width: 20%;
+        }
+    }
+}
+
          /*  ---------           -------- */
         /*  --------- FOOTER     ------- */
        /*  ---------            ------- */
@@ -209,23 +227,17 @@ footer {
             font-size: 2rem;
         }
         .container-jeux{
-            padding-left: 3rem;
-          
-        }
-            
+            padding-left: 3rem;  
+        }              
     }
 
+    // QUIZ PAGE
+    .qcm {
+        p{
+            input {
+            width: 7% ;
+            }
+        }
+    }
 
-
-
-
-    // .expli-jeux{
-        
-    //     background-color: #051b27;
-    //     color: #fff;
-    //     // margin-top: 2rem;
-    //     // position: relative;
-    //     width: 100%;
-    //     // z-index: 1;
-    // }
  }
