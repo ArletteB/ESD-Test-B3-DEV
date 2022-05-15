@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    
+    /*  --------- RESET -------- */
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EDF1F5;
+}
+* {
+    margin: auto;
+    padding: auto;
+}
+.btn-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #0373b1;
+    border: 0.2rem solid #0373b1;;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    
+    &:hover {
+        background-color: #0a354c;
+        border-color: #0a354c;
+        color: #fff;
+    }
+}
+
+         /*  ---------           -------- */
+        /*  --------- HOME PAGE  ------- */
+       /*  ---------            ------- */
+
+       /*  --------- SECTION LOGO CES-------- */
+.logo-ces {
+    width: 100%;
+    padding: 0;
+    margin-top: 60px;
+    text-align: center;
+    .logo{
+        img {
+            width: 40%;
+        }
+    }
+}
+
+        /*  --------- SECTION PRÉSENTATION -------- */
+.presentation {
+     display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    background-color: #0A354C;
+    color: white;
+}
+
+.jeux {
+    background-color: #051b27;
+    color: #fff;
+    margin-bottom: -16rem;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
