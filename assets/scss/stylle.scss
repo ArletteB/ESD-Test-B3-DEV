@@ -65,7 +65,7 @@ body{
     }
 }
 
-.jeux {
+.expli-jeux {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -76,7 +76,7 @@ body{
         margin-top: 2rem;
         margin-bottom: 1rem;
     }
-    .containerjeux{
+    .container-jeux{
        margin: 1rem;
          h3{
              margin-top: 1rem;
@@ -85,8 +85,10 @@ body{
         p{
             margin-bottom: 1rem;
         }
-        .btn-link{
-            margin-top: 3rem;
+        .mnbtn {
+            margin-top: 4rem;
+            text-align: center;
+            margin-bottom: 3rem;
         }
     }
         
@@ -119,13 +121,13 @@ body{
        /*  ---------            ------- */
 
 footer {
-    margin-top: 4rem;
     background-color: #000;
     display: flex;
     justify-content: space-around;
     align-items: center;
     .linklogo{
         .logo2 {
+            
             width: 80%;
             padding: 1rem 0;
         }
@@ -169,6 +171,7 @@ footer {
         text-align: center;
         .logo2 {
              width:18%;
+             margin-top: 2rem;
         }       
         ul {
             flex-direction: column;
@@ -186,6 +189,7 @@ footer {
     }
 
 @media screen and (min-width: 780px) {
+    // PRÉSENTATION
     .presentation {
        height: 300px;
        h2{
@@ -198,13 +202,30 @@ footer {
            padding-bottom: 3rem;
        }
     }
-    .jeux {
-        
-        background-color: #051b27;
-        color: #fff;
-        // margin-top: 2rem;
-        // position: relative;
-        width: 100%;
-        // z-index: 1;
+
+    // EXPLICATION DU JEUX
+    .expli-jeux {
+        h2 {
+            font-size: 2rem;
+        }
+        .container-jeux{
+            padding-left: 3rem;
+          
+        }
+            
     }
+
+
+
+
+
+    // .expli-jeux{
+        
+    //     background-color: #051b27;
+    //     color: #fff;
+    //     // margin-top: 2rem;
+    //     // position: relative;
+    //     width: 100%;
+    //     // z-index: 1;
+    // }
  }

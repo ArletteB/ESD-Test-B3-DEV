@@ -63,7 +63,7 @@ body {
   margin: 1rem;
 }
 
-.jeux {
+.expli-jeux {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -71,22 +71,24 @@ body {
   background-color: #051b27;
   color: #fff;
 }
-.jeux h2 {
+.expli-jeux h2 {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-.jeux .containerjeux {
+.expli-jeux .container-jeux {
   margin: 1rem;
 }
-.jeux .containerjeux h3 {
+.expli-jeux .container-jeux h3 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.jeux .containerjeux p {
+.expli-jeux .container-jeux p {
   margin-bottom: 1rem;
 }
-.jeux .containerjeux .btn-link {
-  margin-top: 3rem;
+.expli-jeux .container-jeux .mnbtn {
+  margin-top: 4rem;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 /*  ---------           -------- */
@@ -109,7 +111,6 @@ body {
 /*  --------- FOOTER     ------- */
 /*  ---------            ------- */
 footer {
-  margin-top: 4rem;
   background-color: #000;
   display: flex;
   justify-content: space-around;
@@ -150,6 +151,7 @@ footer ul:not(:last-child) {
   }
   footer .logo2 {
     width: 18%;
+    margin-top: 2rem;
   }
   footer ul {
     flex-direction: column;
@@ -179,10 +181,11 @@ footer ul:not(:last-child) {
     padding-bottom: 3rem;
   }
 
-  .jeux {
-    background-color: #051b27;
-    color: #fff;
-    width: 100%;
+  .expli-jeux h2 {
+    font-size: 2rem;
+  }
+  .expli-jeux .container-jeux {
+    padding-left: 3rem;
   }
 }
 
