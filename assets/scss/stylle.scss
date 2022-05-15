@@ -71,9 +71,90 @@ body{
         /*  --------- CGU PAGE   ------- */
        /*  ---------            ------- */
 
-#CGU{
+#cgu{
+    .logocgu{
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        .logo {
+            img{
+                width: 30%;
+            }
+        }
+    }
    .cgu {
-    width: 80%;
+    width: 60%;
     text-align: center;
    }
 }
+
+         /*  ---------           -------- */
+        /*  --------- FOOTER     ------- */
+       /*  ---------            ------- */
+
+footer {
+    margin-top: 4rem;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .linklogo{
+        .logo2 {
+            width: 100%;
+            padding: 1rem 0;
+        }
+    }
+            
+    ul {
+        color: #fff;
+        list-style: none;
+        display: flex;
+        padding: 0;
+        li {
+            padding: 0rem 1rem;
+            a {
+            // margin: 1rem;
+            color: #fff;
+            text-decoration: none;
+            }
+        }
+    }
+    p {
+        color: #fff;
+    }
+    }
+     
+    footer ul:not(:last-child) {
+        border-right: 1px solid #fff ;
+    }
+
+
+
+
+
+         /*  ---------                  -------- */
+        /*  ---------   MEDIA QUERIES   ------- */
+       /*  ---------                   ------- */
+
+@media screen and (max-width: 768px) {
+    // FOOTER
+    footer {
+        flex-direction: column;
+        text-align: center;
+        .logo2 {
+             width:18%;
+        }       
+        ul {
+            flex-direction: column;
+            li {
+                padding: 0.8rem;
+            }
+        }
+        .reseaux {
+            margin: 1rem;
+        }
+    }
+    footer ul:not(:last-child) {
+        border-right: none ;
+    }      
+    }

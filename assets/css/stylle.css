@@ -65,9 +65,78 @@ body {
 /*  ---------           -------- */
 /*  --------- CGU PAGE   ------- */
 /*  ---------            ------- */
-#CGU .cgu {
-  width: 80%;
+#cgu .logocgu {
   text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+#cgu .logocgu .logo img {
+  width: 30%;
+}
+#cgu .cgu {
+  width: 60%;
+  text-align: center;
+}
+
+/*  ---------           -------- */
+/*  --------- FOOTER     ------- */
+/*  ---------            ------- */
+footer {
+  margin-top: 4rem;
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .linklogo .logo2 {
+  width: 100%;
+  padding: 1rem 0;
+}
+footer ul {
+  color: #fff;
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+footer ul li {
+  padding: 0rem 1rem;
+}
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer p {
+  color: #fff;
+}
+
+footer ul:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+/*  ---------                  -------- */
+/*  ---------   MEDIA QUERIES   ------- */
+/*  ---------                   ------- */
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .logo2 {
+    width: 18%;
+  }
+  footer ul {
+    flex-direction: column;
+  }
+  footer ul li {
+    padding: 0.8rem;
+  }
+  footer .reseaux {
+    margin: 1rem;
+  }
+
+  footer ul:not(:last-child) {
+    border-right: none;
+  }
 }
 
 /*# sourceMappingURL=stylle.css.map */
