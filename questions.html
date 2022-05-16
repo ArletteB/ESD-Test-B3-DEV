@@ -9,41 +9,42 @@
 </head>
 <body>
     <div class="logo-ces">
-        <a class="logo" href=""><img src="assets/img/logoces.svg" alt="logo du CES"></a>
+        <a class="logo" href="index.html"><img src="assets/img/logoces.svg" alt="logo du CES"></a>
     </div>
     <section class="qcm">
         <form name="quiz" id="quiz">
             <div>
                 <p class="question">1. Quel est le nom du fondateur du Consumer Electronics Show ?</p>
-                <p><input type="radio" name="question1" value="false">A. Bill Gates</p>
-                <p><input type="radio" name="question1" value="false">B. Steve Jobs</p>
-                <p><input type="radio" name="question1" value="true ">C. Jack Wayman</p>
+                <p><input type="radio" name="question1" id="b" value="false">A. Bill Gates</p>
+                <p><input type="radio" name="question1" id="s" value="false">B. Steve Jobs</p>
+                <p><input type="radio" name="question1" id="j" value="true ">C. Jack Wayman</p>
             </div>
             <div>
                 <p class="question">2. En quelle année est lancé le CES pour la première fois ?</p>
-                <p><input type="radio" name="question2" value="false">A. 1973</p>
-                <p><input type="radio" name="question2" value="false">B. 1970</p>
-                <p><input type="radio" name="question2" value="true ">C. 1967</p>
+                <p><input type="radio" name="question2" id="1" value="false">A. 1973</p>
+                <p><input type="radio" name="question2" id="2" value="false">B. 1970</p>
+                <p><input type="radio" name="question2" id="3" value="true ">C. 1967</p>
             </div>
             <div>
                 <p class="question">3. Dans quelle ville s’est déroulé ce premier salon ?</p>
-                <p><input type="radio" name="question3" value="false">A. Los Angeles</p>
-                <p><input type="radio" name="question3" value="true">B. New York</p>
-                <p><input type="radio" name="question3" value="false ">C. Chicago</p>
+                <p><input type="radio" name="question3" id="l" value="false">A. Los Angeles</p>
+                <p><input type="radio" name="question3" id="n" value="true">B. New York</p>
+                <p><input type="radio" name="question3" id="c" value="false ">C. Chicago</p>
             </div>
             <div>
                 <p class="question">4. Quelle technologie fut présentée en avant-première au CES de 1996 ?</p>
-                <p><input type="radio" name="question4" value="false">A. RDS</p>
-                <p><input type="radio" name="question4" value="false">B. MP3</p>
-                <p><input type="radio" name="question4" value="true ">C. DVD</p>
+                <p><input type="radio" name="question4" id="r" value="false">A. RDS</p>
+                <p><input type="radio" name="question4" id="m" value="false">B. MP3</p>
+                <p><input type="radio" name="question4" id="d" value="true ">C. DVD</p>
             </div>
             <div>
                 <p class="question">5. Quel nom connu portent les interventions des présidents d’entreprises au CES ?</p>
-                <p><input type="radio" name="question5" value="true">A. Keynotes</p>
-                <p><input type="radio" name="question5" value="false">B. Tech Talks</p>
-                <p><input type="radio" name="question5" value="false ">C. Pitchs</p>
+                <p><input type="radio" name="question5" id="k" value="true">A. Keynotes</p>
+                <p><input type="radio" name="question5" id="t" value="false">B. Tech Talks</p>
+                <p><input type="radio" name="question5" id="p" value="false ">C. Pitchs</p>
             </div>
         </form>
+        <button class="btn-link" onclick="valider()" type="submit">Valider</button>
     </section>
 
 
@@ -58,5 +59,7 @@
         <a href=""><img class="reseaux" src="assets/img/instagram-logo.svg" alt=""></a>
         <p>© CTA 2022</p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script  src="assets/js/script.js"></script>
 </body>
 </html>

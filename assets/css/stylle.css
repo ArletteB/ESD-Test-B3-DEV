@@ -121,6 +121,9 @@ body {
 .qcm p input {
   width: 20%;
 }
+.qcm .btn-link {
+  margin-top: 2rem;
+}
 
 /*  ---------                     -------- */
 /*  ---------   PAGE VALIDATION    ------- */
@@ -150,6 +153,33 @@ body {
   padding: 8px;
   margin-bottom: 20px;
   outline: solid 1px #0A354C;
+}
+.contact a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*  ---------                -------- */
+/*  --------- PAGE RESULTAT   ------- */
+/*  ---------                 ------- */
+.resultat .succes {
+  background-color: #12ed6a;
+  color: #0373b1;
+  padding: 15px;
+  width: fit-content;
+  font-weight: bold;
+}
+.resultat #result {
+  text-align: center;
+  padding: 20px;
+  width: 70%;
+  color: #fff;
+  margin-top: 2rem;
+}
+.resultat .redirection {
+  font-size: 20px;
+  margin: 2rem;
+  text-align: center;
 }
 
 /*  ---------           -------- */
@@ -242,6 +272,14 @@ footer ul:not(:last-child) {
   }
   .contact .form-contact .info-text input {
     width: 60%;
+  }
+
+  .resultat #result {
+    width: 30%;
+  }
+
+  footer {
+    height: 150px;
   }
 }
 

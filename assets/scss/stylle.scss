@@ -133,6 +133,9 @@ body{
         width: 20%;
         }
     }
+    .btn-link {
+        margin-top: 2rem;
+    }
 }
 
          /*  ---------                     -------- */
@@ -167,13 +170,43 @@ body{
             }
         }
     }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
     
 }
 
+          /*  ---------                -------- */
+         /*  --------- PAGE RESULTAT   ------- */
+        /*  ---------                 ------- */
+.resultat{
+    .succes{
+        background-color: #12ed6a;
+        color: #0373b1;
+        padding: 15px;
+        width: fit-content;
+        font-weight: bold;
+    }
+    #result {
+        text-align: center;
+        padding: 20px;
+        width: 70%;
+        color: #fff;
+        margin-top: 2rem;
+        
+        
+    }
+    .redirection {
+        font-size: 20px;
+        margin: 2rem;
+        text-align: center;
+    }
+}
 
-         /*  ---------           -------- */
-        /*  --------- FOOTER     ------- */
-       /*  ---------            ------- */
+          /*  ---------           -------- */
+         /*  --------- FOOTER     ------- */
+        /*  ---------            ------- */
 
 footer {
     background-color: #000;
@@ -289,4 +322,17 @@ footer {
         }
     }
 
+    // RESULTAT
+    .resultat{
+        #result {
+            width: 30%; 
+        }
+    }
+
+
+
+    // FOOTER 
+    footer {
+        height: 150px;
+    }
  }
