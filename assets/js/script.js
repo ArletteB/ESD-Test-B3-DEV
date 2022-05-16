@@ -1,7 +1,6 @@
-let response = []
 
 function valider() {
-    sessionStorage.clear();
+ 
     var q1= document.getElementById('j').checked
     var q2= document.getElementById('3').checked
     var q3= document.getElementById('n').checked

@@ -8,3 +8,4 @@ Test Admission à l'ESD de Bordeaux en Bachelor3 Développeur web
 - HTML 
 - CSS
 - SCSS
+- JS
