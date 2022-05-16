@@ -21,6 +21,7 @@ body {
   border: 0.2rem solid #0373b1;
   color: #fff;
   padding: 10px;
+  width: 185px;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
@@ -121,6 +122,36 @@ body {
   width: 20%;
 }
 
+/*  ---------                     -------- */
+/*  ---------   PAGE VALIDATION    ------- */
+/*  ---------                      ------- */
+.contact h2 {
+  font-size: 2rem;
+  line-height: 48px;
+  text-align: center;
+}
+.contact .form-contact {
+  margin: 2rem;
+}
+.contact .form-contact .info-text {
+  display: flex;
+  flex-direction: column;
+}
+.contact .form-contact .info-text span {
+  color: red;
+}
+.contact .form-contact .info-text label {
+  font-size: 20px;
+  margin: 7px 0;
+}
+.contact .form-contact .info-text input {
+  border: none;
+  font-size: 18px;
+  padding: 8px;
+  margin-bottom: 20px;
+  outline: solid 1px #0A354C;
+}
+
 /*  ---------           -------- */
 /*  --------- FOOTER     ------- */
 /*  ---------            ------- */
@@ -204,6 +235,13 @@ footer ul:not(:last-child) {
 
   .qcm p input {
     width: 7%;
+  }
+
+  .contact {
+    margin-left: 8rem;
+  }
+  .contact .form-contact .info-text input {
+    width: 60%;
   }
 }
 
